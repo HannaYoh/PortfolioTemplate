@@ -21,3 +21,20 @@ header{
     display: flex;
     flex-direction: row;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+img{
+    width: 30px;
+    height: 28px;
+    padding-right: 15%;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+}
