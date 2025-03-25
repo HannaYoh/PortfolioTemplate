@@ -32,10 +32,23 @@ header{
 .img_card{
     width: 250px;
     height: 350px;
+    /* backdrop-filter: blur(20px); */
+
+  /*   box-shadow: 0 0 5px yellow,
+    0 0 25px yellow; */
+
+    opacity: .5;
 }
 
 .img_card:hover{
-    
+    /* backdrop-filter: blur(40px);
+    transform: translateY(-50%); */
+
+    /* box-shadow: 0 0 5px yellow,
+    0 0 25px yellow, 0 0 50px yellow,
+    0 0 100px yellow, 0 0 200px yellow; */
+
+    opacity: 1;
 }
 
 footer{
