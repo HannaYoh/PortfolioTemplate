@@ -20,6 +20,22 @@ header{
 #paragraphs{
     display: flex;
     flex-direction: row;
+    flex-wrap:nowrap;
+    margin-bottom: 10%;
+}
+
+.paragraph{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_card{
+    width: 250px;
+    height: 350px;
+}
+
+.img_card:hover{
+    
 }
 
 footer{
@@ -28,7 +44,7 @@ footer{
     justify-content: space-between; 
 }
 
-img{
+.logo{
     width: 30px;
     height: 28px;
     padding-right: 15%;
