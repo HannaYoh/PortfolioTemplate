@@ -17,8 +17,13 @@ header{
     
 }
 
+#first_content{
+   width: 65%;
+}
+
 #second_content{
    /*  background-color: #D2D2D2; */
+   width: 65%;
 }
 
 #second_paragraphs{
