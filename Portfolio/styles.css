@@ -5,12 +5,26 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    background-color: black;
+    color:white;
+    padding-left: 11%;
+    padding-right: 12%; 
 }
 
-#content{
+#main_content{
     padding-left: 11%;
     padding-right: 12%;
     
+}
+
+#second_content{
+   /*  background-color: #D2D2D2; */
+}
+
+#second_paragraphs{
+    display: flex;
+    flex-direction: row;
+
 }
 
 #title{
@@ -30,7 +44,7 @@ header{
 }
 
 .img_card{
-    width: 250px;
+    width: 200px;
     height: 350px;
     /* backdrop-filter: blur(20px); */
 
@@ -49,18 +63,30 @@ header{
     0 0 100px yellow, 0 0 200px yellow; */
 
     opacity: 1;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.57);
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
 }
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    padding-left: 11%;
+    padding-right: 12%;
+    background-color: black;
+    color:white;
 }
 
 .logo{
     width: 30px;
     height: 28px;
     padding-right: 15%;
+    padding-top: 10%;
 }
 
 #links{
