@@ -25,6 +25,13 @@ footer{
     color:white;
 }
 
+.logo{
+    width: 30px;
+    height: 28px;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+
 .img_card{
     width: 750px;
     height: 500px;
