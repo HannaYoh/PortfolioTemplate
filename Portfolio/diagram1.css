@@ -32,6 +32,11 @@ footer{
     padding-top: 10%;
 }
 
+#links{
+    display: flex;
+    flex-direction: row;
+}
+
 .img_card{
     width: 750px;
     height: 500px;
