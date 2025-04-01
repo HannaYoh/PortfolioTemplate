@@ -16,6 +16,9 @@ header{
     padding-right: 12%;
     
 }
+#paragraphs{
+    width: 50%;
+}
 
 footer{
     display: flex;
