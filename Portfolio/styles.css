@@ -21,9 +21,17 @@ header{
    width: 65%;
 }
 
+#middle_content{
+    padding-left: 11%;
+    padding-right: 12%;
+    
+}
+
+
 #second_content{
-   /*  background-color: #D2D2D2; */
-   width: 65%;
+   background-color: #D2D2D2; 
+   padding-left: 11%;
+   padding-right: 12%;
 }
 
 #second_paragraphs{
